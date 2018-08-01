@@ -2,6 +2,9 @@
 # Dependency directory
 node_modules
 
+# Code coverage
+coverage
+
 # Ignore WebStorm project
 .idea/**
 
