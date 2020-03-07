@@ -23,9 +23,9 @@
   "dependencies": {},
   "devDependencies": {
     "coveralls": "^3.0.2",
-    "eslint": "^4.19.1",
+    "eslint": "^6.0.0",
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-plugin-import": "^2.13.0",
-    "jest": "^23.4.1"
+    "jest": "^25.0.0"
   }
 }
