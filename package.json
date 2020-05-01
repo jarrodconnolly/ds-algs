@@ -18,14 +18,19 @@
   },
   "scripts": {
     "test": "jest --coverage",
-    "lint": "eslint"
+    "lint": "eslint",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
-  "dependencies": {},
+  "dependencies": {
+    "snyk": "^1.316.1"
+  },
   "devDependencies": {
     "coveralls": "^3.0.2",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-plugin-import": "^2.13.0",
     "jest": "^23.4.1"
-  }
+  },
+  "snyk": true
 }
