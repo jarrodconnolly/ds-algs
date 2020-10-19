@@ -6,5 +6,5 @@ node_modules
 coverage
 
 # Ignore WebStorm project
-.idea/**
+.idea
 
