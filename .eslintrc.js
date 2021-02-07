@@ -1,12 +1,12 @@
 module.exports = {
-  "parserOptions": {
-    "ecmaVersion": 2020,
-    "sourceType": "module",
+  parserOptions: {
+    ecmaVersion: 2021,
+    sourceType: 'script',
   },
-  "env": {
-    "es6": true,
-    "node": true,
-    "jest": true
+  env: {
+    es6: true,
+    node: true,
+    jest: true,
   },
-  "extends": "airbnb-base"
+  extends: 'airbnb-base',
 };
